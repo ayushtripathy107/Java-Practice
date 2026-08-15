@@ -3,7 +3,6 @@ class Solution {
         if (n == 0) return new ArrayList<>();
         return buildTrees(1, n);
     }
-
     private List<TreeNode> buildTrees(int start, int end) {
         List<TreeNode> res = new ArrayList<>();
         if (start > end) {
