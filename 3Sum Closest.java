@@ -17,7 +17,6 @@ class Solution {
                 if (currentSum == target) {
                     return currentSum;
                 }
-
                 // Update closestSum if the current sum is closer to target
                 if (Math.abs(target - currentSum) < Math.abs(target - closestSum)) {
                     closestSum = currentSum;
